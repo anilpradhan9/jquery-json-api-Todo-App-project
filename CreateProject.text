@@ -1,0 +1,64 @@
+1-npm init -y
+2- npm install bootstrap bootstrap-icons jquery --save
+3-Public folder
+4-src folder
+5-data folder
+In Data Folder Add A (db.json)
+db.json=> {
+    "users":[
+        {
+            "id":1,
+            "username":"john_nit",
+            "password":"john@11",
+            "email":"john@gmail.com"
+        }
+    ],
+    "appointments":[
+        {
+            "id":1,
+            "title":"Metting",
+            "description":"attend meeting",
+            "data":"2025-04-10",
+            "username":"john_nit"
+        }
+    ]
+ }
+
+ *===>Goto public folder and add a new file =>
+                    index.html - file 
+        Add a folder - (images)
+ *===>Go to src folder and add a new file 
+                    index.js
+                    index.css
+
+-------------------------------
+ADD Inside Index.html=>
+-------------------------------
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../src/index.css">
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../src/index.js"></script>
+</head>
+<body>
+    
+</body>
+</html>
+-----------------------------------
+ADD INSIDE package.json -This=> 
+ "test": "echo \"Error: no test specified\" && exit 1",
+ "api":"json-server ./data/db.json --watch --port=4040"
+ --------------------------------------------------------
+
+Run Api=> npm run api
+----------------
+Cookiee=> jquery provide a library for cookie
+Library is=> npm install jquery.cookie --save
+------------
+

@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "john_nit",
+      "password": "john@11",
+      "email": "john@gmail.com"
+    },
+    {
+      "id": "59df",
+      "username": "sonu",
+      "password": "sonu1234",
+      "email": "sonu1234@gmail.com"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "title": "Metting",
+      "description": "attend meeting",
+      "date": "2025-04-10",
+      "username": "john_nit"
+    },
+    {
+      "id": "2",
+      "title": "Birth Day Party",
+      "description": "attend Party",
+      "date": "2024-04-10",
+      "username": "sonu"
+    },
+    {
+      "id": "dbb5",
+      "title": "Trip",
+      "description": "trip to ",
+      "date": "2025-05-30",
+      "username": "john_nit"
+    },
+    {
+      "id": "b561",
+      "title": "party",
+      "description": "Party on",
+      "date": "2025-05-09",
+      "username": "john_nit"
+    }
+  ]
+}
